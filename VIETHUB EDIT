@@ -1,2 +1,98 @@
-# Nowhub
-Yay
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "VietHub v0.0.3 [ MỚI RA ]", HidePremium = false,Introtext = "VietHub [v0.0.3]"  , SaveConfig = true, ConfigFolder = "Viethub 0.0.3"})
+  
+  OrionLib:MakeNotification({
+    Name = "VietHub [v0.0.3]",
+    Content = "Thanks you SUPPORT PC PE",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+  })
+
+
+  local TutTab = Window:MakeTab({
+    Name = "Main [✅]",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+  })
+
+  local Section = TutTab:AddSection({
+    Name = "Script 1 Ố DỀ MẤY CÁI NÀY KHÔNG LIÊN QUAN ĐÂU ĐỪNG BẤM VÀO"
+  })
+
+  TutTab:AddButton({
+    Name = "Omghub [✅]",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+            print("Button")
+      end    
+  })
+
+  TutTab:AddButton({
+    Name = "conrock piece [kaga]",
+    Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/Kahack999/ka/main/rockcon.lua'),true))()
+            print("Button")
+      end    
+  })
+
+TutTab:AddButton({
+  Name = "yield admin [✅]",
+  Callback = function() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+          print("Button")
+    end    
+})
+
+TutTab:AddButton({
+  Name = "God mode [✅]",
+  Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+          print("Button")
+    end    
+})
+
+TutTab:AddButton({
+  Name = "One piece Ad123 [⚠️]",
+  Callback = function()
+          print("button pressed")
+    end    
+})
+
+local TutTab = Window:MakeTab({
+  Name = "Script 2 chính [🆕️]",
+  Icon = "rbxassetid://4483345998",
+  PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+  Name = "Script 2 MUỐN THÊM J BẢO THG VIỆT Á CREDIT VIỆT TROLL RBLX"
+})
+
+TutTab:AddButton({
+  Name = "Ice hub [👍]",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+          print("button")
+    end    
+})
+
+TutTab:AddButton({
+  Name = "Apple X [ Blox Fruit ] [🤣😂😂😂😂🍎]",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/ImTienNguyenZ/main/obf_lc8NZP74x7Y0j6TZs4B8c2EF93mtOpRQZkarI3R8GiBRedSlkA2293QygddzqIWU.lua"))()
+          print("button")
+    end    
+})
+
+  TuTab:AddSlider({
+    Name = "Slider",
+    Min = 0,
+    Max = 20,
+    Default = 5,
+    Color = Color3.fromRGB(255,255,255),
+    Increment = 1,
+    ValueName = "bananas",
+    Callback = function(Value)
+      print(Value)
+    end    
+  })
+
+  OrionLib:Init() 
