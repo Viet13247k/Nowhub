@@ -1,0 +1,43 @@
+local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("VIET♾ ĐANG CHẠY | CẢM ƠN VÌ ĐÃ DÙNG")
+wait(3)
+H:Destroy(3)
+
+local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("ĐÂY LÀ VIET♾ TOOL")
+wait(3)
+H:Destroy(3)
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+  local Window = OrionLib:MakeWindow({Name = "VIET♾ V1", HidePremium = false, SaveConfig = true, ConfigFolder = "VIET♾"})
+
+
+  OrionLib:MakeNotification({
+    Name = "VIET♾",
+    Content = "HI PLS SUB AND LIKE FOR MY YOUTUBE",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+  })
+
+  local TutTab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+  })
+
+  local Section = TutTab:AddSection({
+    Name = "♾ INF"
+  })
+
+  TutTab:AddButton({
+    Name = "Touch fling",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_rTvXTs8F16D8D2oiLxZ62E1E9jT1we312yUyJr2h72Vwqr32l37rirU1S89hqRV7.lua.txt"))()
+            print("Button")
+      end    
+  })
+
+  TutTab:AddButton({
+    Name = "SYSTEM BROKEN",
