@@ -11,7 +11,7 @@ wait(3)
 H:Destroy(3)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))() --This Will Load The Script Code
-local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
+local Player = game.Players.LocalPlayer 
   local Window = OrionLib:MakeWindow({
 		Name = "GETKEY VIET♾ TOOL😎",
 		HidePremium = false,
@@ -21,7 +21,83 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 }) 
 
 function MakeScriptHub()
-        loadstring(game:HttpGet("https:raw.githubusercontent.com/Viet13247k/Nowhub/main/UNKNOW"))()
+        local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("VIET♾ LOAD")
+wait(3)
+H:Destroy(3)
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+  local Window = OrionLib:MakeWindow({Name = "VIET♾ V1", HidePremium = false, SaveConfig = true, ConfigFolder = "VIET♾"})
+
+
+  OrionLib:MakeNotification({
+    Name = "VIET♾",
+    Content = "HI PLS SUB AND LIKE FOR MY YOUTUBE",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+  })
+
+  local TutTab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+  })
+
+  local Section = TutTab:AddSection({
+    Name = "♾ INF"
+  })
+
+  TutTab:AddButton({
+    Name = "Touch fling",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_rTvXTs8F16D8D2oiLxZ62E1E9jT1we312yUyJr2h72Vwqr32l37rirU1S89hqRV7.lua.txt"))()
+            print("Button")
+      end    
+  })
+
+  TutTab:AddButton({
+    Name = "SYSTEM BROKEN",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+            print("Button")
+      end    
+  })
+
+TutTab:AddButton({
+  Name = "yield admin FE",
+  Callback = function() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+          print("Button")
+    end    
+})
+
+TutTab:AddButton({
+  Name = "God mode",
+  Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+          print("Button")
+    end    
+})
+
+TutTab:AddButton({
+  Name = "ICEHUB",
+  Callback = function()
+          print("Button")
+    end    
+})
+
+  TuTab:AddSlider({
+    Name = "Slider",
+    Min = 0,
+    Max = 20,
+    Default = 5,
+    Color = Color3.fromRGB(255,255,255),
+    Increment = 1,
+    ValueName = "bananas",
+    Callback = function(Value)
+      print(Value)
+    end    
+  })
+
+  OrionLib:Init()
 end
 
 OrionLib:MakeNotification({
