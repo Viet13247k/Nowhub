@@ -1,0 +1,77 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "RAINBOW BRI", HidePremium = false, SaveConfig = true, ConfigFolder = "RAINBOW BRI"})
+local Tab = Window:MakeTab({
+	Name = "MAIN",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "GET ALL LUCKY BLOX (WORKING)"
+})
+
+OrionLib:MakeNotification({
+	Name = "NOTE",
+	Content = "IT IS BETA XD!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "GIVE LUCKYBLOX NORMAL",
+	Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnLuckyBlock"):FireServer()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "GIVE LUCKYBLOX SUPER",
+	Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnSuperBlock"):FireServer()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "GIVE LUCKYBLOX Diamond",
+	Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnDiamondBlock"):FireServer()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "GIVE LUCKYBLOX Rainbow",
+	Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnRainbowBlock"):FireServer()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "GIVE LUCKYBLOX Galaxy",
+	Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnGalaxyBlock"):FireServer()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "CREDIT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "DEVELOPER HERE"
+})
+
+Tab:AddButton({
+	Name = "CREDIT VIETINF",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+OrionLib:Init()
