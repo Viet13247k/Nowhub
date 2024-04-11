@@ -1,0 +1,2 @@
+getgenv().motorcycletype = "free"
+loadstring(game:HttpGet(('https://pastefy.app/7LO0ZbrN/raw'),true))()
